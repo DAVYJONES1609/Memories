@@ -1,0 +1,40 @@
+.home{
+    width: 40%;
+    background: rgb(11, 10, 64);
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    /* align-items: center;
+    text-align: center; */
+    color: #fff;
+    margin-top: 4%;
+}
+.sp{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5vw;
+}
+.al{
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+h1{
+    color: #fff;
+   margin-top: 20px;
+}
+.home > .button {
+    background: #310750;
+    border: 1px solid #11253e;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.home > .button:hover {
+    background: #421a5f;
+}
